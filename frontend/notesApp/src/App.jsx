@@ -6,7 +6,7 @@ import NoteDetailPage from "./pages/NoteDetailPage";
 
 const App = () => {
   return (
-    <div data-theme="luxury">
+    <div className="bg-slate-900" data-theme="dim">
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/create" element={<CreatePage />} />
